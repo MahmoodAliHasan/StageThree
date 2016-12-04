@@ -1,0 +1,11 @@
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\bin\Debug\ExtraNumberFromString.exe.config
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\bin\Debug\ExtraNumberFromString.exe
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\bin\Debug\ExtraNumberFromString.pdb
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\bin\Debug\MaterialSkin.dll
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\bin\Debug\MaterialSkin.pdb
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.csprojResolveAssemblyReference.cache
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.Form1.resources
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.Properties.Resources.resources
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.csproj.GenerateResource.Cache
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.exe
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\ExtraNumberFromString\ExtraNumberFromString\obj\Debug\ExtraNumberFromString.pdb
