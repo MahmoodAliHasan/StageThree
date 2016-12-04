@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cfindnumberthekeyinstring.Properties
+namespace lab4cnumbertoarr.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace cfindnumberthekeyinstring.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("cfindnumberthekeyinstring.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("lab4cnumbertoarr.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

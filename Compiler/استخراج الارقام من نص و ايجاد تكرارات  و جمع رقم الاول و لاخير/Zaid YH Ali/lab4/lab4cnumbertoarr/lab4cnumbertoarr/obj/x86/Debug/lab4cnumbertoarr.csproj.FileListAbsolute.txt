@@ -1,0 +1,14 @@
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\bin\Debug\lab4cnumbertoarr.exe
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\bin\Debug\lab4cnumbertoarr.pdb
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.Form1.resources
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.Properties.Resources.resources
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.csproj.GenerateResource.Cache
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.exe
+C:\Users\WIN10-SSD\Desktop\lab3\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.pdb
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.exe
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.pdb
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\bin\Debug\lab4cnumbertoarr.exe
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\bin\Debug\lab4cnumbertoarr.pdb
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.Form1.resources
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.Properties.Resources.resources
+C:\Users\WIN10-SSD\Desktop\lab4cnumbertoarr\lab4cnumbertoarr\obj\x86\Debug\lab4cnumbertoarr.csproj.GenerateResource.Cache

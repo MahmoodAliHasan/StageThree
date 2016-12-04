@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cfindnumberthekeyinstring.Properties
+namespace lab4cnumbertoarr.Properties
 {
 
 

@@ -1,7 +1,0 @@
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\bin\Debug\cfindnumberthekeyinstring.exe
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\bin\Debug\cfindnumberthekeyinstring.pdb
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\obj\x86\Debug\cfindnumberthekeyinstring.Form1.resources
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\obj\x86\Debug\cfindnumberthekeyinstring.Properties.Resources.resources
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\obj\x86\Debug\cfindnumberthekeyinstring.csproj.GenerateResource.Cache
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\obj\x86\Debug\cfindnumberthekeyinstring.exe
-C:\Users\WIN10-SSD\Desktop\lab3\cfindnumberthekeyinstring\cfindnumberthekeyinstring\obj\x86\Debug\cfindnumberthekeyinstring.pdb

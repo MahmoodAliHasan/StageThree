@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("cfindnumberthekeyinstring")]
+[assembly: AssemblyTitle("lab4cnumbertoarr")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("cfindnumberthekeyinstring")]
+[assembly: AssemblyProduct("lab4cnumbertoarr")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("47f9362e-0dcd-4e93-8aed-ef0fc2a95f81")]
+[assembly: Guid("b258dfa1-eccd-465d-8a90-11145a020485")]
 
 // Version information for an assembly consists of the following four values:
 //

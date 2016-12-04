@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{37CBF04A-C883-45F6-98DD-738264DDCC3C}</ProjectGuid>
+    <ProjectGuid>{E610E157-C5FE-4AA0-ACC7-619929B19EC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>cfindnumberthekeyinstring</RootNamespace>
-    <AssemblyName>cfindnumberthekeyinstring</AssemblyName>
+    <RootNamespace>lab4cnumbertoarr</RootNamespace>
+    <AssemblyName>lab4cnumbertoarr</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
