@@ -1,0 +1,9 @@
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\bin\Debug\extraFloatFromString.exe.config
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.csprojResolveAssemblyReference.cache
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.Form1.resources
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.Properties.Resources.resources
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.csproj.GenerateResource.Cache
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\bin\Debug\extraFloatFromString.exe
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\bin\Debug\extraFloatFromString.pdb
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.exe
+C:\Users\Mahmood Ali\Documents\Visual Studio 2015\Projects\Visual Base\extraFloatFromString\extraFloatFromString\obj\Debug\extraFloatFromString.pdb
