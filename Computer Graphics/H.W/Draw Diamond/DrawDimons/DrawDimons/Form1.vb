@@ -15,18 +15,18 @@
 
         Label2.Text = Point2.ToString()
 
-        DrawLine(Point1, Point2)
+        Breesenham_LineAlgorithms(Point1, Point2)
 
     End Sub
 
 
-    Private Sub DrawnLineDirect(p1 As Point, p2 As Point)
+    Private Sub DDA_LineAlgorithm(p1 As Point, p2 As Point)
 
         Dim graph As Graphics = Pc_DrawnArea.CreateGraphics()
 
 
 
-        Dim length, Dy, Dx, Xinc, Yinc As Integer
+        Dim length, Dy, Dx, Xinc, Yinc, x, y
 
         Dy = p2.Y - p1.Y
         Dx = p2.X - p1.X
@@ -36,20 +36,25 @@
         Xinc = Dx / length
         Yinc = Dy / length
 
+        ' MsgBox(Xinc & " " & Yinc)
 
         Dim Img As New Bitmap(1, 1)
         Img.SetPixel(0, 0, Color.Green)
 
 
-        Dim x, y As Integer
-        x = p1.X
-        y = p1.Y
+        ' Dim x, y As Double
+        x = p1.X + 0.5
+        y = p1.Y + 0.5
 
         For i = 1 To length
 
-            graph.DrawImage(Img, x, y)
+
+            graph.DrawImage(Img, Convert.ToInt32(x), Convert.ToInt32(y))
             x += Xinc
             y += Yinc
+            Threading.Thread.Sleep(1)
+
+
 
         Next
 
@@ -58,13 +63,13 @@
     End Sub
 
 
-    Private Sub BresenhumLine(p1 As Point, p2 As Point)
+    Private Sub Breesenham_LineAlgorithms(p1 As Point, p2 As Point)
 
         Dim graph As Graphics = Pc_DrawnArea.CreateGraphics()
 
 
 
-        Dim Dy, Dx, P, s1, s2, temp, change
+        Dim Dy, Dx, P, s1, s2, temp, change, x, y
 
         Dy = Math.Abs(p2.Y - p1.Y)
         Dx = Math.Abs(p2.X - p1.X)
@@ -72,7 +77,7 @@
         P = 2 * (Dy - Dx)
 
         s1 = Math.Sign(p2.X - p1.X)
-        s2 = Math.Sign(p2.Y - p2.Y)
+        s2 = Math.Sign(p2.Y - p1.Y)
 
 
         Dim Img As New Bitmap(1, 1)
@@ -83,7 +88,7 @@
         If (Dy > Dx) Then
             temp = Dx
             Dx = Dy
-            Dy = Dx
+            Dy = temp
             change = 1
 
         Else
@@ -91,15 +96,21 @@
         End If
 
 
-        Dim x, y As Integer
+        x = p1.X
+        y = p1.Y
+
 
         For i = 1 To Dx
-            If (P > 0) Then
+
+            graph.DrawImage(Img, x, y)
+            If (P >= 0) Then
                 If (change = 1) Then
                     x = x + s1
                 Else
                     y = y + s2
                 End If
+
+                P = P + 2 * (Dy - Dx)
             Else
                 P = P + 2 * Dy
             End If
@@ -108,8 +119,7 @@
             Else
                 x = x + s1
             End If
-
-            graph.DrawImage(Img, x, y)
+            ' Console.WriteLine(x & "   graph.DrawImage(Img, x, y)
         Next
 
 
@@ -203,26 +213,26 @@
         Dim startPoint As Point = New Point(300, Pc_DrawnArea.Height - 10)
         Dim p2 As Point = New Point(400, mHeight)
 
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
 
         p2 = New Point(370, mHeight + 10)
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
 
         p2 = New Point(230, mHeight + 10)
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
 
         p2 = New Point(200, mHeight)
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
         'Long line 
         p2 = New Point(350, mHeight - 20)
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
         p2 = New Point(250, mHeight - 20)
-        DrawLine(startPoint, p2)
+        Breesenham_LineAlgorithms(startPoint, p2)
 
 
         ' level two 
@@ -230,30 +240,30 @@
 
         Dim p1 As Point = New Point(200, mHeight)
         p2 = New Point(230, mHeight + 10)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
         p1 = New Point(230, mHeight + 10)
         p2 = New Point(370, mHeight + 10)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
         p1 = New Point(370, mHeight + 10)
         p2 = New Point(400, mHeight)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
 
         'level there
 
         p1 = New Point(400, mHeight)
         p2 = New Point(350, mHeight - 20)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
         p1 = New Point(200, mHeight)
         p2 = New Point(250, mHeight - 20)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
         p1 = New Point(250, mHeight - 20)
         p2 = New Point(350, mHeight - 20)
-        DrawLine(p1, p2)
+        Breesenham_LineAlgorithms(p1, p2)
 
 
 
