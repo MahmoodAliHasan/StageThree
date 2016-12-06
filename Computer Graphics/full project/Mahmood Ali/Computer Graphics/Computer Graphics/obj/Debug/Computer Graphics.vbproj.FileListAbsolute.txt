@@ -1,0 +1,13 @@
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\Computer Graphics.exe.config
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\Computer Graphics.exe
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\Computer Graphics.pdb
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\Computer Graphics.xml
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\MaterialSkin.dll
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\bin\Debug\MaterialSkin.pdb
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer Graphics.vbprojResolveAssemblyReference.cache
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer_Graphics.Form1.resources
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer_Graphics.Resources.resources
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer Graphics.vbproj.GenerateResource.Cache
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer Graphics.exe
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer Graphics.xml
+E:\VB-C#-Android\Computer Graphics\Computer Graphics\Computer Graphics\obj\Debug\Computer Graphics.pdb
