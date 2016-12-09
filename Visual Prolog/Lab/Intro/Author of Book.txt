@@ -1,0 +1,35 @@
+% Copyright
+
+implement main
+    open core
+
+class facts
+    book:(string).
+    wrote:(string,string).
+
+clauses
+    book("Cs").
+    book("java").
+
+    wrote("someone1","Cs").
+    wrote("someone2","java").
+
+class predicates
+    author_of:(string,string) nondeterm anyflow.
+
+clauses
+    author_of(Author,Book):-book(Book),wrote(Author,Book).
+
+
+clauses
+    run() :-console::init(),
+    author_of(X,Y),
+    stdio::write("\n",X," ",Y,"\n"),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

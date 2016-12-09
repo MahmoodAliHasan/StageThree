@@ -1,0 +1,25 @@
+% Copyright
+
+implement main
+    open core
+
+
+class predicates
+    print:(integer) nondeterm anyflow.
+
+clauses
+    print(1):-stdio::write("\n",1,"\n"),!.
+    print(X):-stdio::write("\n",X),print(X-1).
+
+
+clauses
+    run() :-console::init(),
+    print(10),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

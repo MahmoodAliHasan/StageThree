@@ -1,0 +1,29 @@
+% Copyright
+
+implement main
+    open core
+
+class predicates
+    printList:(integer_list) nondeterm anyflow.
+    printList:(string_list) nondeterm anyflow.
+
+clauses
+    printList([]):-!.
+    printList([H|T]):-stdio::write(H," "),printList(T).
+
+clauses
+        run() :-console::init(),
+        stdio::write("\n\nInteger List\n"),
+        printList([1,2,3,4,5]),
+        stdio::write("\n\nString List\n"),
+        printList(["Mahmood" , "Ali", "Hasan"]),
+        stdio::write("\n\n"),
+        fail.
+        run().
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

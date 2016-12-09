@@ -1,0 +1,37 @@
+% Copyright
+
+implement main
+    open core
+
+class facts
+vegetables:(string).
+doctor_list:(string).
+
+clauses
+vegetables("tomatoes").
+vegetables("v2").
+
+doctor_list("tomatoes").
+doctor_list("l2").
+
+class predicates
+eat:(string,string) nondeterm anyflow.
+
+clauses
+eat("laylaa",Veg):-vegetables(Veg),doctor_list(Veg) .
+
+
+
+clauses
+    run() :-console::init(),
+    eat("laylaa",A),
+    stdio::write(A),
+    fail().
+    run().
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

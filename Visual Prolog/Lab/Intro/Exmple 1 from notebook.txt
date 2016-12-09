@@ -1,0 +1,27 @@
+% Copyright
+
+implement main
+    open core
+
+class facts
+    xor:(boolean,boolean,boolean).
+
+clauses
+    xor(true,true,false).
+    xor(true,false,true).
+    xor(false,true,true).
+    xor(false,false,false).
+
+clauses
+    run() :-console::init(),
+    xor(A,B,C),
+    stdio::write("\n",A," ",B," -> ",C,"\n"),
+    fail.
+    run().
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).
