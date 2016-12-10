@@ -1,0 +1,30 @@
+% Copyright
+
+implement main
+    open core
+class predicates
+delete_item:(integer,integer_list,integer_list)nondeterm anyflow.
+
+clauses
+
+delete_item(X,[],[]):-!.
+
+delete_item(X,[X|L],L2):-delete_item(X,L,L2),!.
+
+delete_item(X,[H|L],[H|L2]):-delete_item(X,L,L2).
+
+clauses
+    run() :-console::init(),
+
+    delete_item(5,[5,1,2,5,3,4,5],L),
+    stdio::write(L),
+     fail.
+        run().
+
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

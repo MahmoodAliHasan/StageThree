@@ -1,0 +1,26 @@
+% Copyright
+
+implement main
+    open core
+
+class predicates
+len:(integer_list,integer)nondeterm anyflow.
+
+clauses
+len([],0):-!.
+len([H|L],S):-len(L,S1),S=S1+H.
+
+clauses
+    run() :-console::init(),
+     len([10,20,30,40,50],S),
+ stdio::write(S),
+     fail.
+     run().
+
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

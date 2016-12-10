@@ -1,0 +1,25 @@
+% Copyright
+
+implement main
+    open core
+
+class predicates
+append:(integer_list,integer_list,integer_list)nondeterm anyflow.
+
+clauses
+append([],L,L):-!.
+append([H|L1],L2,[H|L3]):-append(L1,L2,L3).
+
+clauses
+    run() :-console::init(),
+        append([1,2,3],[4,5,1],L3),
+         stdio::write(L3),
+         fail.
+        run().
+
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

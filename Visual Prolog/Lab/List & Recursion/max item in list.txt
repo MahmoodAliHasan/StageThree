@@ -1,0 +1,27 @@
+% Copyright
+
+implement main
+    open core
+class predicates
+max:(integer,integer,integer) nondeterm anyflow.
+maxlist:(integer_list,integer) nondeterm anyflow.
+
+
+clauses
+max(X,Y,X):-X>Y,!.
+max(X,Y,Y).
+
+maxlist([X],X):-!.
+maxlist([H1,H2|L],X):-max(H1,H2,A),maxlist([A|L],X).
+clauses
+    run() :-console::init(),
+    maxlist([1,2,3,54,5],X),
+    stdio::write("\n",X),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).
