@@ -1,0 +1,24 @@
+% Copyright
+
+implement main
+    open core
+
+class predicates
+    len_list:(integer_list,integer) nondeterm anyflow.
+
+clauses
+    len_list([],0):-!.
+    len_list([_H|T],Len):- len_list(T,Last_Len),Len=Last_Len+1.
+
+clauses
+    run() :-console::init(),
+    len_list([4,5,5,5],X),
+    stdio::write("\n\nLenght of list is  : ", X),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).
