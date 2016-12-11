@@ -26,15 +26,29 @@ namespace recognize_float
 
             for (i = 0; i < wrords.Length; i++)
             {
+                
                 if (wrords[i].Contains('.'))
                 {
                     num = wrords[i].Split('.');
-                    foreach (string n in num)
+
+                    if(num.Length == 2)
                     {
-                        int.TryParse(n, out x);
-                        listBox1.Items.Add(x);
+                        //55.55
 
-                    }
+                        String R = num[0];
+                        String L = num[1];
+
+                        if(int.TryParse (R,out x))
+                        {
+                            if(int.TryParse(L,out x))
+                            {
+                                listBox1.Items.Add(wrords[i]);
+                            }
+                        }
+                    }   
                 }
+            }
+        }
 
-            }          
+        
+    }
