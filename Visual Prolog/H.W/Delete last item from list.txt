@@ -1,0 +1,26 @@
+% Copyright
+
+implement main
+    open core
+
+class predicates
+    det_last_item:(integer_list,integer_list) nondeterm anyflow.
+
+
+clauses
+    det_last_item([X],[]):-!.
+    det_last_item([H|L1],[H|L2]):-det_last_item(L1,L2).
+
+
+clauses
+    run() :-console::init(),
+    det_last_item([1,2,3,4,5],L),
+    stdio::write(L),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).

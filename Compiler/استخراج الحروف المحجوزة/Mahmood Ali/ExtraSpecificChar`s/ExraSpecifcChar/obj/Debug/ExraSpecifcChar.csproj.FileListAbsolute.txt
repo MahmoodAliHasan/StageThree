@@ -1,0 +1,11 @@
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\bin\Debug\ExraSpecifcChar.exe.config
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\bin\Debug\ExraSpecifcChar.exe
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\bin\Debug\ExraSpecifcChar.pdb
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\bin\Debug\MaterialSkin.dll
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\bin\Debug\MaterialSkin.pdb
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.csprojResolveAssemblyReference.cache
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.Form1.resources
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.Properties.Resources.resources
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.csproj.GenerateResource.Cache
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.exe
+E:\VB-C#-Android\Compiler\ExraSpecifcChar\ExraSpecifcChar\obj\Debug\ExraSpecifcChar.pdb
