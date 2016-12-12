@@ -1,0 +1,9 @@
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\bin\Debug\speatial char.exe.config
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\bin\Debug\speatial char.exe
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\bin\Debug\speatial char.pdb
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial char.csprojResolveAssemblyReference.cache
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial_char.Form1.resources
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial_char.Properties.Resources.resources
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial char.csproj.GenerateResource.Cache
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial char.exe
+c:\users\ali h\documents\visual studio 2015\Projects\speatial char\speatial char\obj\Debug\speatial char.pdb
