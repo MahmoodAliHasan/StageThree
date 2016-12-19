@@ -1,0 +1,9 @@
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\bin\Debug\RemoveComment.exe.config
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\bin\Debug\RemoveComment.exe
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\bin\Debug\RemoveComment.pdb
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.csprojResolveAssemblyReference.cache
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.Form1.resources
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.Properties.Resources.resources
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.csproj.GenerateResource.Cache
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.exe
+E:\VB-C#-Android\Compiler\RemoveComment\RemoveComment\obj\Debug\RemoveComment.pdb
