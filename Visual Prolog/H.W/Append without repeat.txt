@@ -1,0 +1,50 @@
+% Copyright
+%removerHead
+%removeTail
+%delete backword
+%delete forword
+%sum of list
+%delete item from list
+%appen to list
+%insert at begginng
+%insert at end
+%insert after X
+%insert befor
+%apped_with_out_repeat
+
+
+implement main
+    open core
+
+class predicates
+    append_without_repeat:(integer_list,integer_list,integer_list) nondeterm anyflow.
+    searchInList:(integer_list,integer,boolean) nondeterm anyflow.
+
+clauses
+    searchInList([],X,false):-!.
+    searchInList([X|L],X,true):-!.
+    searchInList([H|L],X,S):-searchInList(L,X,S).
+
+clauses
+    append_without_repeat([],[X],[X]):-!.
+
+    append_without_repeat([],[H|L2],[H|L3]):-searchInList(L2,H,R),R=false,append_without_repeat([],L2,L3),!.
+    append_without_repeat([],[H|L2],L3):-searchInList(L2,H,R),R=true,append_without_repeat([],L2,L3),!.
+
+    append_without_repeat([H|L1],L2,[H|L3]):-searchInList(L1,H,R),R=false,searchInList(L2,H,R1),R1=false,append_without_repeat(L1,L2,L3),!.
+    append_without_repeat([H|L1],L2,L3):-searchInList(L1,H,R),R=true,append_without_repeat(L1,L2,L3),!.
+    append_without_repeat([H|L1],L2,L3):-searchInList(L2,H,R),R=true,append_without_repeat(L1,L2,L3),!.
+
+clauses
+    run() :-console::init(),
+    append_without_repeat([2,2,3,7,3,3,7,7,4,4,2,2],[2,2,2,2,5,6,5,5,5],T),
+  %  searchInList([1,2,3,4],X,T),
+    stdio::write(T),
+    fail.
+    run().
+
+
+end implement main
+
+goal
+    console::runUtf8(main::run).
