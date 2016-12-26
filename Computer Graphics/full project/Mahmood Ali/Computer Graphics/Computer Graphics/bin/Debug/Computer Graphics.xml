@@ -22,5 +22,85 @@ Computer Graphics
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Broom_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Broom_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Checklist_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Checklist_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Circle_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Circle_Thin_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Ellipse_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Ellipse_Stroked_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Home_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Inspection_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Pentagon_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Resize_Four_Directions_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Resize_Four_Directions_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Shutdown_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Zipline_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Computer_Graphics.My.Resources.Resources.Zipline_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

@@ -97,6 +97,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyGraphics.vb" />
+    <Compile Include="Resources\MyProfessinalColorTable.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -120,6 +122,48 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resize Four Directions_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checklist_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zipline_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellipse_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellipse Stroked_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resize Four Directions_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checklist_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pentagon_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspection_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
